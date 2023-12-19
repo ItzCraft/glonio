@@ -3,7 +3,7 @@ repo: "itzcraft/glonio"
 minGameVersion: 136
 version: "v0.1"
 displayName: "Glonio New Journey!"
-author: "[blue[]]ItzCraft
+author: "[blue[]]ItzCraft" 
 subtitle: "Yo hi!"
 
 description: "glonio is Tundra Planet. You captured full Serpulo and spotted a planet. 
