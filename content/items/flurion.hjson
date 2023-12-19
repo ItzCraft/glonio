@@ -1,0 +1,14 @@
+color: 371f63 
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+cost: 2
+research: {
+    parent: "core-rise"
+}
+buildable: true
+hiddenOnPlanets: [
+    "serpulo"
+    "erekir"
+]
