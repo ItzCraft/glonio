@@ -1,0 +1,28 @@
+  "type": "GenericCrafter",
+  "health": 350,
+  "size": 2,
+  "hasItems": true,
+  "craftTime": 125,
+  "craftEffect": "none",
+  "hasPower": false,
+  "hasLiquids": true,
+  "updateEffect": "none",
+  liquidCapacity: 25
+  "consumes": {
+   "items": [
+      "snow/3"
+    ],
+  },
+  "requirements": [
+    flurion/125
+    snow/50
+  ],
+  "category": "production",
+  "outputLiquid": "water/0.2"
+research: {
+    parent: "core-rice"
+},
+researchCost: [
+    flurion/400
+    snow/350
+  ] 
