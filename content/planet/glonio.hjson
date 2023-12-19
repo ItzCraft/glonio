@@ -5,7 +5,7 @@ orbitRadius: 145
 hasAtmosphere: true
 updateLighting: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.6
+atmosphereRadOut: 0.45
 atmosphereColor: 8de3d6
 drawOrbit: true
 
@@ -22,13 +22,13 @@ allowLaunchToNumbered: false
 cloudMesh: {
     type: HexSkyMesh
     planet: glonio
-    seed: 492
-    speed: 2.1
+    seed: 1282
+    speed: 4.7
     radius: 0.4
     divisions: 5
     color: ffffff
-    octaves: 0
-    persistence: 1
+    octaves: 4
+    persistence: 6
     scl: 4
     thresh: 0.4
 }
@@ -39,25 +39,22 @@ mesh: {
     color1: 5a8e9c
     color2: a6acbf
     color3: f0ffff
+    color4: 6a61b0
     divisions: 3
     radius: 1
     octaves: 3
     persistence: 1
     scl: 1.2
     mag: 1.5
-}
-
-	
+}	
 
 hiddenItems: [
     "copper"
     "lead"
     "scrap"
     "graphite"
-    "coal"
     "titanium"
     "thorium"
-    "silicon"
     "plastanium"
     "phase-fabric"
     "surge-alloy"
@@ -72,4 +69,4 @@ hiddenItems: [
     "carbide"
     "fissile-matter"
     "dormant-cyst"
-] 
+]
