@@ -1,1 +1,149 @@
+generator: SerpuloPlanetGenerator
 
+parent: sun
+
+iconColor: 0bffff
+
+orbitRadius: 145
+
+hasAtmosphere: true
+
+updateLighting: true
+
+atmosphereRadIn: 0
+
+atmosphereRadOut: 0.6
+
+atmosphereColor: 0bfbff
+
+drawOrbit: true
+
+
+
+accessible: true
+
+alwaysUnlocked: true
+
+defaultCore: "core-rise"
+
+sectorSeed: 23
+
+startSector: 16
+
+sectorSize: 2
+
+
+
+clearSectorOnLose: true
+
+allowSectorInvasion: true
+
+allowLaunchToNumbered: false
+
+	
+
+cloudMesh: {
+
+    type: HexSkyMesh
+
+    planet: glonio
+
+    seed: 492
+
+    speed: 2.1
+
+    radius: 0.4
+
+    divisions: 5
+
+    color: cfcfcfcf
+
+    octaves: 0
+
+    persistence: 1
+
+    scl: 4
+
+    thresh: 0.4
+
+}
+
+	
+
+mesh: {
+
+    type: NoiseMesh
+
+    planet: glonio
+
+    seed: 4828
+
+    color1: 3d3d3d
+
+    color2: 0bffff
+
+    color3: 000bff
+
+    color4:
+
+    divisions: 3
+
+    radius: 1
+
+    octaves: 3
+
+    persistence: 1
+
+    scl: 1.2
+
+    mag: 1.5
+
+}
+
+	
+
+hiddenItems: [
+
+    "copper"
+
+    "lead"
+
+    "scrap"
+
+    "graphite"
+
+    "coal"
+
+    "titanium"
+
+    "thorium"
+
+    "plastanium"
+
+    "phase-fabric"
+
+    "surge-alloy"
+
+    "spore-pod"
+
+    "sand"
+
+    "blast-compound"
+
+    "pyratite"
+
+    "metaglass"
+
+    "beryllium"
+
+    "oxide"
+
+    "tungsten"
+
+    "carbide"
+
+    "fissile-matter"
+
+    "dormant-cyst"
+
+] 
