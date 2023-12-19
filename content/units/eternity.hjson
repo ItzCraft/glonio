@@ -1,1 +1,66 @@
+type: payload
+flying: true
+health: 200
+armor: 10
+hitSize: 6
+controller: BuilderAI
+isEnemy: false
+mineWalls: true
+mineFloor: true
+buildSpeed: 1
+itemCapacity: 75
+speed: 2
+accel: 0.5
+drag: 0.15
+mineSpeed: 2.5
+mineTier: 2
+rotateSpeed: 3
+crashDamageMultiplier: 0
+hittable: true
+targetable: true
+fogRadius: 3
+coreUnitDock: true
+outlineColor: 000000
+payloadCapacity: 20
+pickupUnits: true
+vulnerableWithPayloads: true
 
+weapons: [
+    {
+        type: RepairBeamWeapon
+		widthSinMag: 0.11
+        x: 0
+        y: 2
+        mirror: false
+        shootY: 0
+		beamWidth: 0.2
+        repairSpeed: 1.5
+        fractionRepairSpeed: 0.02
+        shootCone: 10
+        targetUnits: false
+        targetBuildings: true
+        autoTarget: false
+        controllable: true
+        laserColor: 7e8894
+        healColor: 7e8894
+
+		bullet: {
+
+		    maxRange: 25
+
+		}
+
+    }
+
+]
+
+engines: [
+    {
+        x: -7
+        y: -5
+        radius: 0.8
+        rotation: 0
+
+    }
+
+] 
