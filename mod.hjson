@@ -1,0 +1,10 @@
+name: "glonio"
+repo: "itzcraft/Glonio"
+minGameVersion: 136
+version: "v0.1"
+displayName: "Glonio New Journey!"
+author: "[blue[]]ItzCraft
+subtitle: "Yo hi!"
+description:
+dependencies: []
+hideBrowser: true
