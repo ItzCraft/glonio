@@ -1,0 +1,14 @@
+color: fafafa
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+cost: 3
+research: {
+    parent: "flurion"
+}
+buildable: true
+hiddenOnPlanets: [
+    "serpulo"
+    "erekir"
+]
