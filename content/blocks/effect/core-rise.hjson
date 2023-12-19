@@ -8,8 +8,13 @@ unitType: "eternity"
 incinerateNonBuildable: true
 isFirstTier: true
 requirements: [
-
     "flurion/1500"
-
+    "silicon/1000"
 ]
+research: {  
+    root: true
+    name: glonio
+    requiresUnlock: false
+    planet: glonio
+    } 
 alwaysUnlocked: true
