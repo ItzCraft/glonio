@@ -17,7 +17,7 @@
     flurion/125
     snow/50
   ],
-  "category": "production",
+  "category": "crafting",
   "outputLiquid": "water/0.2"
 research: {
     parent: "core-rice"
