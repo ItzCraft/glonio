@@ -5,6 +5,9 @@ version: "v0.1"
 displayName: "Glonio New Journey!"
 author: "[blue[]]ItzCraft
 subtitle: "Yo hi!"
-description:
+
+description: "glonio is Tundra Planet. You captured full Serpulo and spotted a planet. 
+But when you tryed Land on it you crashed. And now you need survive In the difficult conditions of the planet. But you've noticed that you're not the first to visit this planet. And you'll have to fight against REDACTED..."
+
 dependencies: []
 hideBrowser: true
