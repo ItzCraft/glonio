@@ -1,0 +1,20 @@
+type: CoreBlock
+category: effect
+health: 760
+size: 3
+itemCapacity: 2000
+unitCapModifier: 15
+unitType: "eternity"
+incinerateNonBuildable: true
+isFirstTier: true
+requirements: [
+
+    "flurion/1500"
+
+]
+research: {
+    root: true
+    name: @g-techtree
+	planet: glonio
+}
+alwaysUnlocked: true
