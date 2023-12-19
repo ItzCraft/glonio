@@ -38,8 +38,7 @@ mesh: {
     seed: 4828
     color1: 5a8e9c
     color2: a6acbf
-    color3: f0fffe
-    color4: 8c8dab
+    color3: f0ffff
     divisions: 3
     radius: 1
     octaves: 3
@@ -58,6 +57,7 @@ hiddenItems: [
     "coal"
     "titanium"
     "thorium"
+    "silicon"
     "plastanium"
     "phase-fabric"
     "surge-alloy"
