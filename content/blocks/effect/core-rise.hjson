@@ -12,9 +12,4 @@ requirements: [
     "flurion/1500"
 
 ]
-research: {
-    root: true
-    name: @g-techtree
-    planet: glonio
-}
 alwaysUnlocked: true
